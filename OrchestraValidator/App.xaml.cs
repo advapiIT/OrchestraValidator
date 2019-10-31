@@ -8,6 +8,7 @@
     using Catel.Logging;
     using Catel.Reflection;
     using Catel.Windows;
+    using Orchestra;
     using Orchestra.Services;
     using Orchestra.Views;
 
@@ -41,7 +42,7 @@
             //serviceLocator.RegisterType<IMyInterface, IMyClass>();
 
             // To auto-forward styles, check out Orchestra (see https://github.com/wildgums/orchestra)
-            // StyleHelper.CreateStyleForwardersForDefaultStyles();
+             StyleHelper.CreateStyleForwardersForDefaultStyles();
 
             var serviceLocator = ServiceLocator.Default;
             var shellService = serviceLocator.ResolveType<IShellService>();

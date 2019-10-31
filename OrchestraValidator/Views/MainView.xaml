@@ -3,8 +3,7 @@
                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                    xmlns:catel="http://schemas.catelproject.com"
                    xmlns:orccontrols="http://schemas.wildgums.com/orc/controls">
-
-    <Grid>
+<AdornerDecorator>    <Grid>
         <orccontrols:TabControl LoadTabItems="LazyLoading">
             <TabItem Header="Info" >
             
@@ -20,5 +19,6 @@
             </TabItem>
         </orccontrols:TabControl>
     </Grid>
-    
+</AdornerDecorator>
+
 </catel:UserControl>
